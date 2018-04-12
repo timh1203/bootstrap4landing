@@ -133,3 +133,25 @@ color:#fff;
  .blog .card-body{
   padding: 1em;
  }
+
+ /* Team */
+ .team{
+  margin: 4em 0;
+  position: relative;  
+ }
+ .team h1{
+  color:#F97300;
+  margin: 2em; 
+ }
+ .team .item{
+  position: relative;
+  padding: 2em;
+ }
+ .team .des{
+  background: #F97300;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 93%;
+  transition:.3s ease-in-out;
+ }
+ 
