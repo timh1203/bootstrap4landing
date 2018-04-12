@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* Globals */
+body {
+  font-family: 'Raleway', sans-serif !important;
+ }
+
+/* Navigation */
 .navbar{
   background:#F97300;
 }
@@ -144,6 +152,7 @@ color:#fff;
   margin: 2em; 
  }
  .team .item{
+  margin: 0 auto;
   position: relative;
   padding: 2em;
  }
@@ -152,6 +161,30 @@ color:#fff;
   color: #fff;
   text-align: center;
   border-bottom-left-radius: 93%;
-  transition:.3s ease-in-out;
  }
- 
+
+ /* Contact */
+ .contact-form{
+  margin: 6em 0;
+  position: relative;  
+ }
+ .contact-form h1{
+  padding:2em 1px;
+  color: #F97300; 
+ }
+ .contact-form .left{
+   margin: 0 auto;
+ }
+ .contact-form .right{
+  max-width: 600px;
+  margin: 0 auto;
+ }
+ .contact-form .right .btn-secondary{
+  background:  #F97300;
+  color: #fff;
+  border:0;
+ }
+ .contact-form .right .form-control::placeholder{
+  color: #888;
+  font-size: 16px;
+ }
