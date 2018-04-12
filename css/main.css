@@ -1,0 +1,62 @@
+.navbar{
+  background:#F97300;
+}
+.nav-link , .navbar-brand{
+  color: #f4f4f4;
+  cursor: pointer;
+}
+.nav-link{
+  margin-right: 1em !important;
+}
+.nav-link:hover{
+  background: #f4f4f4;
+  color: #f97300;
+}
+.navbar-collapse{
+  justify-content: flex-end;
+}
+.navbar-toggler{
+    background:#fff !important;
+}
+
+/*header style*/
+.header{
+  background-image: url('http://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cf56dd62f7e28facff79eaf6e7a78df4&auto=format&fit=crop&w=1948&q=80');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+ }
+ .overlay{
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.79);
+ }
+.description{
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  left: 5%;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+.description h1{
+  color:#F97300;
+}
+.description p{
+  color:#666;
+  font-size: 20px;
+  width: 50%;
+  text-align:center;
+  margin: auto;
+  line-height: 2.5;
+}
+.description button{
+border:1px  solid #F97300;
+background:#F97300;
+color:#fff;
+}
