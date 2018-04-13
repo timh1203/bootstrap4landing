@@ -75,7 +75,6 @@ color:#fff;
 }
 
 /* About */
-
 .about{
   margin: 4em 0;
   padding: 1em;
@@ -157,15 +156,18 @@ color:#fff;
   margin: 2em; 
  }
  .team .item{
-  margin: 0 auto;
   position: relative;
-  padding: 2em;
+  overflow: hidden;
  }
  .team .des{
   background: #F97300;
   color: #fff;
   text-align: center;
-  border-bottom-left-radius: 93%;
+  border-top-right-radius: 93%;
+  border-top-left-radius: 93%;
+	position: absolute;
+	width: 90%;  
+	bottom: 24px;
  }
 
  /* Contact */
